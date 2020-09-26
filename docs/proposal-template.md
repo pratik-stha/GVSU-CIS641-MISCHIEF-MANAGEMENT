@@ -1,6 +1,8 @@
-Team name:
+Team name: Mischief Management
 
 Team members:
+* Pratik Shrestha
+* Vivi Hoang
 
 # Introduction
 
