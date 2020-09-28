@@ -1,6 +1,6 @@
 # Mischief Management
 
-Project description (~1 paragraph)
+We will be creating a calculator app that does common mathematical functions and unit conversions. We plan on creating the app first in Python and then, in the second phase, adding the graphic interface using tkinter. This is so we can confirm the functionality first before we focus on the visual design. 
 
 ## Team Members and Roles
 
