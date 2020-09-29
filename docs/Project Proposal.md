@@ -21,7 +21,7 @@ The application is planned to be created in two different phases. First phase in
 
 Prototype model will be implemented for the project. The basic idea in Prototype model is that instead of freezing the requirements before a design or coding can proceed, a throwaway prototype is built to understand the requirements. This prototype is developed based on the currently known requirements. The project will be started by releasing a base version. Then in every cycle an improvement will be done to the project and a new version will be released. The advantages of this model include detection of error, easy addition of new features and functions, ideas get clearer as new versions are released. Fig 1 depicts the process of the prototype model that will be followed by the project. 
 
-![alt text](https://docs.google.com/drawings/u/1/d/sr-yfOh7XAfgcmAz5Qhdhsg/image?w=567&h=201&rev=229&ac=1&parent=1p5qihHHQD3wl-_uSOIY9J6kyU3pyp8E2gIj4ARcBXqs)
+![alt text](https://raw.githubusercontent.com/pratik-stha/GVSU-CIS641-MISCHIEF-MANAGEMENT/master/docs/Block%20Diagram.PNG)
 
 Fig1: Block diagram of overall process of prototype model
 
