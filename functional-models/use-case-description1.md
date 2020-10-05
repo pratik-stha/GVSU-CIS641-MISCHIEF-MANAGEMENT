@@ -48,13 +48,12 @@ If the Calculator User wants to convert units of length, the **S-3 unit conversi
 1. Calculator User enters first number. 
 2. Calculator User chooses artithmetic operation: addition, subtraction, multiplication or division.
 3. Calculator User provides second number.
-4. Calculator computes statement and displays original statement and resulting output.
+4. Calculator computes statement and displays resulting output.
   
 ### S-2: Trigonometry
-1. Calculator User chooses trig function: sine, cosine, tangeant.
-2. Calculator User chooses units: degrees or radians.
+1. Calculator User chooses trig function: sine. (More functions to come.)
 2. Calculator User enters number. 
-4. Calculator computes statement and displays original statement and resulting output.
+3. Calculator computes statement and displays resulting output.
 
 ### S-3 Unit Conversion
 1. Calculator User enters first measurement.
@@ -64,10 +63,10 @@ If the Calculator User wants to convert units of length, the **S-3 unit conversi
 5. Calculator computes conversion and displays original measurement and resulting conversion.
 
 ## Alternate/Exeptional Flows
-### S-1: Cancel or make correction
-1. Calculator User signals they want to cancel the current statement.
-2. Calculator directs Calculator User to re-enter the statement from the beginning of the subflow.
+### S-1: Reset
+1. Calculator User wishes to cancel out.
+2. Calculator brings Calculator User to main menu.
   
 ### S-2: Validation
-1. Calculator user enters an input that is not a number.
-2. Calculator prompts Calculator User to enter a valid number.
+1. Calculator user enters an input that is not a valid number.
+2. Calculator displays error message prompting Calculator User to enter a valid number.
