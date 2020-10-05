@@ -40,8 +40,7 @@ If the Calculator User wants to perform trigonometry, the **S-2 trigonometry sub
 If the Calculator User wants to convert units of length, the **S-3 unit conversion subflow** is performed. 
 2. After the calculation, Calculator gives Calculator User the option to:
   + Continue working with the current figure.
-  + Choose calculator functionality.
-  + Reset number to zero and enter new equation or conversion.
+  + Choose from menu of calculator functionality.
   + End progam.
 
 ## Sub-Flows
