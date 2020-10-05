@@ -34,7 +34,7 @@ Validation
 ### Generalization
 
 ## Normal Flow of Events
-1. Calculator User chooses calculator functionality from three choices: arithmetic, trigonometry or user conversion.
+1. Calculator User chooses calculator functionality from three choices: arithmetic, trigonometry or unit conversion.
 If the Calculator User wants to perform arithmetic, the **S-1 arithmetic subflow** is performed.
 If the Calculator User wants to perform trigonometry, the **S-2 trigonometry subflow** is performed.
 If the Calculator User wants to convert units of length, the **S-3 unit conversion subflow** is performed. 
