@@ -1,30 +1,30 @@
 # Use Case Name
 Perform common calculator functions
-___
+
 ## ID
 01
-___
+
 ## Importance Level
 High
-___
+
 ## Primary Actor
 Calculator User
-___
+
 ## Use Case Type
 Detail, Essential
-___
+
 ## Stakeholders and Interests
 Calculator User - wants to execute quick mathmatical computations
-___
+
 ## Brief Description
 This use case describes how a Calculator User can perform arithmetic operations, trigonometric functions or unit conversions of length.
-___
+
 ## Trigger
 User wishes to perform math functions.
 
 ### Type
 External
-___
+
 ## Relationships
 ### Association
 Calculator User
@@ -32,7 +32,7 @@ Calculator User
 Validation
 ### Extend
 ### Generalization
-___
+
 ## Normal Flow of Events
 1. Calculator User chooses calculator functionality from three choices: arithmetic, trigonometry or user conversion.
 If the Calculator User wants to perform arithmetic, the **S-1 arithmetic subflow** is performed.
@@ -43,7 +43,7 @@ If the Calculator User wants to convert units of length, the **S-3 unit conversi
   + Choose calculator functionality.
   + Reset number to zero and enter new equation or conversion.
   + End progam.
-___
+
 ## Sub-Flows
 ### S-1: Arithmetic
 1. Calculator User enters first number. 
@@ -63,7 +63,7 @@ ___
 3. Calculator User chooses original units of measurement.
 4. Calculator User chooses desired units of conversion.
 5. Calculator computes conversion and displays original measurement and resulting conversion.
-___
+
 ## Alternate/Exeptional Flows
 ### S-1: Cancel or make correction
 1. Calculator User signals they want to cancel the current statement.
