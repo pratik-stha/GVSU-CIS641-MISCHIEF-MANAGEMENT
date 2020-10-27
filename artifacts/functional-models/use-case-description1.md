@@ -14,7 +14,7 @@ Calculator User
 Detail, Essential
 
 ## Stakeholders and Interests
-Calculator User - wants to execute quick mathmatical computations
+Calculator User - wants to execute quick mathematical computations
 
 ## Brief Description
 This use case describes how a Calculator User can perform arithmetic operations, trigonometric functions or unit conversions of length.
@@ -40,7 +40,7 @@ If the Calculator User wants to perform trigonometry, the **S-2 trigonometry sub
 If the Calculator User wants to convert units of length, the **S-3 unit conversion subflow** is performed. 
 2. After the calculation, Calculator gives Calculator User the option to:
   + Continue working with the current figure.
-  + Choose from menu of calculator functionality.
+  + Reset calculator and start from scratch.
   + End progam.
 
 ## Sub-Flows
@@ -51,22 +51,21 @@ If the Calculator User wants to convert units of length, the **S-3 unit conversi
 4. Calculator computes statement and displays resulting output.
   
 ### S-2: Trigonometry
-1. Calculator User chooses trig function: sine. (More functions to come.)
-2. Calculator User enters number. 
+1. Calculator User enters number. 
+2. Calculator User chooses trig function: sine. (More functions to come.)
 3. Calculator computes statement and displays resulting output.
 
 ### S-3 Unit Conversion
 1. Calculator User enters first measurement.
 2. Calculator provides list of units of length from which Calculator User.
-3. Calculator User chooses original units of measurement.
-4. Calculator User chooses desired units of conversion.
-5. Calculator computes conversion and displays original measurement and resulting conversion.
+3. Calculator User chooses from menu of available conversions (feet > meters; meters > feet -- more unit options to come.)
+4. Calculator computes conversion and displays resulting output.
 
 ## Alternate/Exeptional Flows
 ### S-1: Reset
 1. Calculator User wishes to cancel out.
-2. Calculator brings Calculator User to main menu.
+2. Calculator brings Calculator User to start.
   
 ### S-2: Validation
-1. Calculator user enters an input that is not a valid number.
-2. Calculator displays error message prompting Calculator User to enter a valid number.
+1. Calculator user enters an invalid input or invalid methematical operation.
+2. Calculator brings Calculator User to start.
