@@ -1,7 +1,7 @@
 # Calculator Project
 
 ## Team members
-* [Pratik Shrestha](https://github.com/pratik-stha/CIS641-HW2-Shrestha.git
+* [Pratik Shrestha](https://github.com/pratik-stha/CIS641-HW2-Shrestha.git)
 * [Vivi Hoang](https://github.com/vivi-hoang/CIS641-HW2-Hoang)
 
 ### Project overview
