@@ -14,7 +14,7 @@ For the software development model, the project will follow a prototype model, r
 ![Prototype model](https://raw.githubusercontent.com/pratik-stha/GVSU-CIS641-MISCHIEF-MANAGEMENT/master/docs/Block%20Diagram.PNG)
 
 ### Project artifacts and documents
-* [Software requirements specification] (https://github.com/pratik-stha/GVSU-CIS641-MISCHIEF-MANAGEMENT/blob/master/docs/software_requirements_specification.md)
+* [Software requirements specification](https://github.com/pratik-stha/GVSU-CIS641-MISCHIEF-MANAGEMENT/blob/master/docs/software_requirements_specification.md)
 * [Initial program proposal](https://github.com/pratik-stha/GVSU-CIS641-MISCHIEF-MANAGEMENT/blob/master/docs/Project%20Proposal.md)
 * [Midterm presentation (Oct. 28, 2020)](https://github.com/pratik-stha/GVSU-CIS641-MISCHIEF-MANAGEMENT/blob/master/docs/midterm-presentation.pdf)
 * [Class diagram, object diagram and CRC card](https://github.com/pratik-stha/GVSU-CIS641-MISCHIEF-MANAGEMENT/blob/master/artifacts/structural-models/Class%20diagram.pdf)
