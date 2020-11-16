@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # Overview
 This document serves as the software requirement specifications for our project, a calculator app. It defines the functional and nonfunctional characteristic expected of the app.
 
@@ -30,6 +29,3 @@ This document serves as the software requirement specifications for our project,
 	1. The font choice shall prioritize legibility and reader-friendly size.
 1. Performance
 	1. The system shall process calculations in under one second.
-=======
-
->>>>>>> 58a2e40a637eb7b0a813b340127bba84db005ad8
