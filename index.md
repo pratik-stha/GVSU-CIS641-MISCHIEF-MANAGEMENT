@@ -1,8 +1,8 @@
 # Calculator Project
 
 ## Team members
-* [Pratik Shrestha](https://github.com/pratik-stha/CIS641-HW2-Shrestha.git)
-* [Vivi Hoang](https://github.com/vivi-hoang/CIS641-HW2-Hoang)
+* [Pratik Shrestha](https://github.com/pratik-stha/)
+* [Vivi Hoang](https://vivi-hoang.github.io/)
 
 ### Project overview
 The project for the semester is going to be a calculator application created using the Python programming language. The app will have features of that of a regular calculator like addition, subtraction, multiplication and division. In addition, the app will also perform trigonometry and convert unit measurements.
