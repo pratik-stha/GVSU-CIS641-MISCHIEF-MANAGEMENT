@@ -15,6 +15,10 @@ For the software development model, the project will follow a prototype model, r
 
 ### Project artifacts and documents
 * [Software requirements specification](https://github.com/pratik-stha/GVSU-CIS641-MISCHIEF-MANAGEMENT/blob/master/docs/software_requirements_specification.md)
+* [Data persistence mapping](https://github.com/pratik-stha/GVSU-CIS641-MISCHIEF-MANAGEMENT/blob/master/Mapping%20Diagram/Mapping%20Diagram(1).pdf)
+  * Mapping of a class to a relational database
+  * Mapping of a class to a NoSQL database object
+  * Mapping of a class to a flat file
 * [Initial program proposal](https://github.com/pratik-stha/GVSU-CIS641-MISCHIEF-MANAGEMENT/blob/master/docs/Project%20Proposal.md)
 * [Midterm presentation (Oct. 28, 2020)](https://github.com/pratik-stha/GVSU-CIS641-MISCHIEF-MANAGEMENT/blob/master/docs/midterm-presentation.pdf)
 * [Class diagram, object diagram and CRC card](https://github.com/pratik-stha/GVSU-CIS641-MISCHIEF-MANAGEMENT/blob/master/artifacts/structural-models/Class%20diagram.pdf)
