@@ -75,9 +75,12 @@ class Arithmetic():
 
      def equlbut(self):
           #global operator
-          add=str(eval(self.operator))
-          self.textin.set(add)
-          self.operator=" "
+          try:
+               add=str(eval(self.operator))
+               self.textin.set(add)
+               self.operator=" "
+          except:
+               self.textin.set("Invalid input")
 
      def clrbut(self):
           #global operator
