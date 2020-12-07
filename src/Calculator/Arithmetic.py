@@ -1,4 +1,6 @@
 from  tkinter import *
+from itertools import groupby
+import re
 import Display
 
 class Arithmetic():
@@ -76,6 +78,7 @@ class Arithmetic():
      def equlbut(self):
           #global operator
           try:
+               self.checkError(self.operator)
                add=str(eval(self.operator))
                self.textin.set(add)
                self.operator=" "
@@ -86,5 +89,14 @@ class Arithmetic():
           #global operator
           self.textin.set("")
           self.operator=" "
+     
+     def checkError(self,str):
+         
+          x = re.findall("[(-/+*)]{2,}", str) 
+          if x:
+               raise Exception("Invalid input")
+          
+          
+
 
     
