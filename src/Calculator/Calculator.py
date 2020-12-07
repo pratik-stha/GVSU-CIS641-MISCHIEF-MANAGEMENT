@@ -6,9 +6,9 @@ import Display
 import Trigonometric
 
 me=Tk()
-me.geometry("550x530")
+me.geometry("515x460")
 me.title("CALCULATOR APP")
-melabel = Label(me,text="CALCULATOR",bg='dark gray',font=("Times",30,'bold'))
+melabel = Label(me,text="CALCULATOR",bg='dark gray',font=("Courier New",30,'bold'))
 melabel.pack(side=TOP)
 me.config(background='Dark gray')
 

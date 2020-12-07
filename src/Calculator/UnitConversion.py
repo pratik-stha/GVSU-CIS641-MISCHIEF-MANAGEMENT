@@ -10,7 +10,7 @@ class UnitConversion:
         
 
         group = LabelFrame(master, text="Unit Conversion", padx=15, pady=15)
-        group.place(x=350,y=300)
+        group.place(x=335,y=300)
 
         self.butconvert=Button(group,padx=10,pady=6,bd=4,bg='green',text="Convert",fg='yellow',command=lambda:self.convert(self.textin.get()),font=("Courier New",16,'bold'))
         #self.butconvert.place(x=10,y=450)
@@ -19,7 +19,7 @@ class UnitConversion:
         self.variable = StringVar(group)
         self.variable.set("Feet to Meter")
         self.w = OptionMenu(group,self.variable, "Feet to Meter","Meter to Feet")
-        self.w.configure(width=10, height=2)
+        self.w.configure(width=15, height=2)
         #self.w.place(x=200,y=450)
         self.w.pack()
         
