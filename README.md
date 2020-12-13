@@ -29,10 +29,21 @@ The project is done in Python 3.7. Thus python 3.7 has to be installed in the ta
 * If not Python 3.7 needs to be installed first
 * Python environment also needs to be installed in VS Code
 * Open the project directory
-* Open the file calculator.py and click Run and Debug (F5) on left pane or simply press Run Code (Ctrl+Alt+N)
+* Open the file calculator.py and click Run and Debug (F5) on left pane OR simply press Run Code (Ctrl+Alt+N)
 * Select the python debug configuration if you are 
 * This will run the application
 * To close the app, simply hit the close button on the top right
 
 
 
+<p align="center">
+  <img src="https://raw.githubusercontent.com/pratik-stha/GVSU-CIS641-MISCHIEF-MANAGEMENT/master/docs/Debug%20Configuration.PNG">
+</p>
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/pratik-stha/GVSU-CIS641-MISCHIEF-MANAGEMENT/master/docs/Run%20Code.PNG">
+</p>
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/pratik-stha/GVSU-CIS641-MISCHIEF-MANAGEMENT/master/docs/Calculator%20Interface.PNG">
+</p>
