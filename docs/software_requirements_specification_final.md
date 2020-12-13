@@ -11,9 +11,9 @@ This section documents the functional and nonfunctional requirements of the calc
 | :-: | :---------- |
 | FR1 | The user shall interact with the system via a Graphical User Interface designed to emulate a regular calculator. |
 | FR2 | The interface shall provide the user a means for exiting the app regardless of any operation in progress. |
-| FR3 | Requirement 3 |
-| FR4 | Requirement 4 |
-| FR5 | Requirement 5 |
+| FR3 | The relevant functionality controls shall be grouped together|
+| FR4 | Cancel button shall be colored orange for ease |
+| FR5 | The User Interface size shall not exceed 560px in width and 460 in height.|
 
 ### Display
 | ID  | Requirement |
@@ -21,34 +21,34 @@ This section documents the functional and nonfunctional requirements of the calc
 | FR6 | The calculator shall display the user’s current input and then update with the calculated answer. |
 | FR7 | The user shall be notified with an error message upon entering invalid input. |
 | FR8 | The clear button shall not just clear the screen but also the history (memory) of the calculation. |
-| FR9 | Requirement 9 |
-| FR10 | Requirement 10 |
+| FR9 | The same text box shall be used to display all the errors and outputs. |
+| FR10| The text box shall display the result with unit for unit conversions. |
 
 ### Calculations
 | ID  | Requirement |
 | :-: | :---------- |
-| FR11 | The system shall perform the arithmetic operations of addition, subtraction, multiplication and division. |
-| FR12 | The system shall perform the trigonometric function of sine. |
-| FR13 | The system may perform the trigonometric functions of cosine and tangent. |
-| FR14 | The system shall convert units of measurement from feet to meters and meters to feet. |
-| FR15 | The system may perform additional unit conversions. |
+| FR11 |The system shall perform the arithmetic operations of addition, subtraction, multiplication and division. |
+| FR12 |The complex calculations shall be done only using "math" library from Python, not other manual ways.|
+| FR13 |The system shall sucessfully compute decimal calculations.|
+| FR14 |The system shall compute only if use provides input from GUI numpad, not keyboard|
+| FR15 |The number or operand shall be entered first before pressing the function button.|
 
 ### Validations
 | ID  | Requirement |
 | :-: | :---------- |
 | FR16 | The system shall check the user’s input and operation choice(s) for invalid data such as double decimals, dividing by zero or non-number or -arithmetic characters. |
 | FR17 | The system shall prevent the app from crashing upon entering the invalid inputs. For example, pressing ‘=’ after ‘1’,’+’,’2’,’+’,’3’ is valid but after ‘1’,’+’,’2’,’+’,’-’ is not valid. |
-| FR18 | Requirement 18 |
-| FR19 | Requirement 19 |
-| FR20 | Requirement 20 |
+| FR18 | The system shall prevent the app from crashing when it deals with infinity. For eg: computing Tan 90 is shown with some value rather than just infinity |
+| FR19 | The trigonometric results shall be converted and shown in degree rather than in radian.|
+| FR20 |  |
 
-### Name of Feature 5
+### Trigonometric and Unit conversion features
 | ID  | Requirement |
 | :-: | :---------- |
-| FR21 | Requirement 21 |
-| FR22 | Requirement 22 |
-| FR23 | Requirement 23 |
-| FR24 | Requirement 24 |
+| FR21 |The system shall perform the trigonometric function of Sine, Cosine and Tan.|
+| FR22 |The system shall convert units of measurement from feet to meters and meters to feet.|
+| FR23 |The system shall calculate the results for Trigonometric calculations only using math library from python, not other ways.|
+| FR24 |The user shall only have option to select one of two conversions in dropdown menu.|
 | FR25 | Requirement 25 |
 
 ## Non-Functional Requirements
@@ -83,7 +83,7 @@ This section documents the functional and nonfunctional requirements of the calc
 ### Size
 | ID  | Requirement |
 | :-: | :---------- |
-| NFR16 | The application size shall be very small in size, no more than a few megabytes. |
+| NFR16 | The application size shall be very small in size, no more than a few megabytes.|
 | NFR17 | Non-Functional Requirement 17 |
 | NFR18 | Non-Functional Requirement 18 |
 | NFR19 | Non-Functional Requirement 19 |
