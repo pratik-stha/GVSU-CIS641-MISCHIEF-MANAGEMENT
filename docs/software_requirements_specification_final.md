@@ -1,5 +1,17 @@
 # Overview
-This document serves as the software requirement specifications for our project, a calculator app. It defines the functional and nonfunctional characteristic expected of the app.
+This document provides the software specification requirements, change management plan, traceability tables and software artifacts for our project, a calculator app. The project was completed in December 2020 for the Systems Analysis and Design graduate course (CIS 641) at Grand Valley State University.
+
+### Table of contents
+* [Software Requirements](#software-requirements)
+  * [Functional Requirements](#functional-requirements)
+  * [Nonfunctional Requirements](#non-functional-requirements)
+* [Change Management Plan](#change-management-plan)
+  * [Introduction](#introduction)
+  * [Integration](#integration)
+  * [Training](#training)
+  * [Issue Resolution](#issue-resolution)
+* [Traceability Links](#traceability-links)
+* [Software Artifacts](#software-artifacts)
 
 # Software Requirements
 This section documents the functional and nonfunctional requirements of the calculator app. They have been organized as overarching categories that each list requirements specific to that category.
@@ -98,15 +110,15 @@ This section documents the functional and nonfunctional requirements of the calc
 | NFR24 | Non-Functional Requirement 24 |
 | NFR25 | Non-Functional Requirement 25 |
 
-# Change management plan
+# Change Management Plan
 In the coming months, we will be transitioning from the use of physical calculators to a calculator app installed on all work stations. This section details the organizational plan that the company will follow to roll out that change.
 
 ## Introduction
 The company is pursuing this change for a number of reasons:
 
-* _Improved accuracy and efficiency_ - Staff will no longer have to first perform calculations on their physical calculator and then manually key in the calculated figures into the digital documents on their workstation.
-* _Convenience_ - Staff will no longer have to ensure they have their physical calculator or even the calculator app on their phone with them. This enables the staff to have to keep track of and account for one less piece of hardware.
-* _Cost_ - The company will no longer have to supply new employees with calculators and replace broken, worn-out or missing calculators. 
+* **Improved accuracy and efficiency** - Staff will no longer have to first perform calculations on their physical calculator and then manually key in the calculated figures into the digital documents on their workstation.
+* **Convenience** - Staff will no longer have to ensure they have their physical calculator or even the calculator app on their phone with them. This enables the staff to have to keep track of and account for one less piece of hardware.
+* **Cost** - The company will no longer have to supply new employees with calculators and replace broken, worn-out or missing calculators. 
 
 This change will affect all staff, particularly those who use calculators the most: front-line staff and those in the finance department.
 
@@ -164,12 +176,12 @@ All staff who participate in the training must complete a brief quiz reviewing t
 
 Once everyone in a department has completed training, the department will be thrown a pizza party to mark the occasion. There will also be a drawing among all quiz completers; the winner earns cupcakes for everyone in their department.
 
-### Issue resolution
+## Issue resolution
 Although the calculator app has been tested, no software is foolproof. If any anomalies or issues arise during the transition phase or after implementation is complete, please open a ticket in the I.T. department’s ticket system logging as many details as possible. 
 
 The I.T. department will prioritize the ticket based on urgency and operational impact. If the department is unable to solve the problem and deem it a substantial enough issue, they will elevate the ticket to the app vendor for resolution.
 
-# Traceability links
+# Traceability Links
 Description of this section
 
 ## Use Case Diagram Traceability
