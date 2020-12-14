@@ -24,21 +24,12 @@ The project is done in Python 3.7. Thus Python 3.7 has to be installed on the ta
 
 ### Running from Visual Studio Code
 
-<<<<<<< HEAD
-* Check if Python 3.7 is installed in the machine 
-* If not Python 3.7 needs to be installed first
-* Python environment also needs to be installed in VS Code
-* Open the project directory
-* Open the file calculator.py and click Run and Debug (F5) on left pane OR simply press Run Code (Ctrl+Alt+N)
-* Select the python debug configuration if you are using  debugger (Run and Debug).
-=======
 * Check if Python 3.7 is installed on the machine.
 * If not, Python 3.7 needs to be installed first.
 * The Python environment also needs to be installed in VS Code.
 * Open the project directory.
 * Open the file "Calculator.py" and click Run and Debug (F5) in the left pane or simply press Run Code (Ctrl+Alt+N).
-* Select the Python debug configuration if you are 
->>>>>>> a21dc5c92ba551df87843700544116afac9441ac
+* Select the python debug configuration if you are using a debugger (Run and Debug).
 * This will run the application
 * To close the app, hit the close button ("X") in the top right-hand corner.
 
