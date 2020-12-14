@@ -40,7 +40,7 @@ This section documents the functional and nonfunctional requirements of the calc
 | FR17 | The system shall prevent the app from crashing upon entering the invalid inputs. For example, pressing ‘=’ after ‘1’,’+’,’2’,’+’,’3’ is valid but after ‘1’,’+’,’2’,’+’,’-’ is not valid. |
 | FR18 | The system shall prevent the app from crashing when it deals with infinity. For eg: computing Tan 90 is shown with some value rather than just infinity |
 | FR19 | The trigonometric results shall be converted and shown in degree rather than in radian.|
-| FR20 |  |
+| FR20 |  Requirement 20 |
 
 ### Trigonometric and Unit conversion features
 | ID  | Requirement |

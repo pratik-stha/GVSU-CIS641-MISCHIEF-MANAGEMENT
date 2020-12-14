@@ -30,7 +30,7 @@ The project is done in Python 3.7. Thus python 3.7 has to be installed in the ta
 * Python environment also needs to be installed in VS Code
 * Open the project directory
 * Open the file calculator.py and click Run and Debug (F5) on left pane OR simply press Run Code (Ctrl+Alt+N)
-* Select the python debug configuration if you are 
+* Select the python debug configuration if you are using  debugger (Run and Debug).
 * This will run the application
 * To close the app, simply hit the close button on the top right
 

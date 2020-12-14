@@ -36,7 +36,7 @@ class UnitConversion:
         try:
             val = 0.3048*float(self.textin.get())
             self.textin.set("")
-            self.textin.set(str(val)+" m")
+            self.textin.set(str(round(val,4))+" m")
             self.operator=""
             #self.textin.set("")
             #val=self.textin.get()
@@ -49,9 +49,7 @@ class UnitConversion:
         try:
             val = 3.2804*float(self.textin.get())
             #val=self.textin.get()
-            self.textin.set(str(val)+" f")
-            print(val)
-            
+            self.textin.set(str(round(val,4))+" f")
         except:
             self.textin.set("Enter valid value")
             

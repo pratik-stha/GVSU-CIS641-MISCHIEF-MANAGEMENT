@@ -79,7 +79,7 @@ class Arithmetic():
           #global operator
           try:
                self.checkError(self.operator)
-               add=str(eval(self.operator))
+               add=str(round(eval(self.operator),4))
                self.textin.set(add)
                self.operator=" "
           except:

@@ -21,21 +21,21 @@ class Trigonometric:
     def Sine(self,x):
         try:
             result = math.sin(math.radians(float(x)))
-            self.val.set(result)
+            self.val.set(round(result,4))
         except:
             self.val.set("Invalid input")
     
     def Cos(self,x):
         try:
             result = math.cos(math.radians(float(x)))
-            self.val.set(result)
+            self.val.set(round(result,4))
         except:
             self.val.set("Invalid input")
 
     def Tan(self,x):
         try:
             result = math.tan(math.radians(float(x)))
-            self.val.set(result)
+            self.val.set(round(result,4))
         except:
             self.val.set("Invalid input")
            
