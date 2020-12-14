@@ -21,6 +21,9 @@ The project is done in Python 3.7. Thus Python 3.7 has to be installed on the ta
 * Type "python Calculator.py" in the command line to execute the application.
 * The calculator application will run.
 * To close the app, hit the close button ("X") in the top right-hand corner.
+<p align="center">
+  <img src="https://raw.githubusercontent.com/pratik-stha/GVSU-CIS641-MISCHIEF-MANAGEMENT/master/docs/WinCommand.PNG">
+</p>
 
 ### Running from Visual Studio Code
 
