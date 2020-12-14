@@ -39,7 +39,7 @@ This section documents the functional and nonfunctional requirements of the calc
 | FR16 | The system shall check the user’s input and operation choice(s) for invalid data such as double decimals, dividing by zero or non-number or -arithmetic characters. |
 | FR17 | The system shall prevent the app from crashing upon entering the invalid inputs. For example, pressing ‘=’ after ‘1’,’+’,’2’,’+’,’3’ is valid but after ‘1’,’+’,’2’,’+’,’-’ is not valid. |
 | FR18 | The system shall prevent the app from crashing when it deals with infinity. For eg: computing Tan 90 is shown with some value rather than just infinity |
-| FR19 | The trigonometric results shall be converted and shown in degree rather than in radian.|
+| FR19 | The trigonometric results shall be converted and shown in degree, not in radian.|
 | FR20 |  Requirement 20 |
 
 ### Trigonometric and Unit conversion features
@@ -53,46 +53,46 @@ This section documents the functional and nonfunctional requirements of the calc
 
 ## Non-Functional Requirements
 
-### Accessibility
+### Accessibility and Usability
 | ID  | Requirement |
 | :-: | :---------- |
 | NFR1 | The layout shall incorporate white space for readability purposes. |
-| NFR2 | The font choice shall prioritize legibility and reader-friendly size. |
-| NFR3 | Non-Functional Requirement 3 |
-| NFR4 | Non-Functional Requirement 4 |
-| NFR5 | Non-Functional Requirement 5 |
+| NFR2 | All the results and error messages shall be shown in same display. |
+| NFR3 | The size of the "Equal","Clear","Convert","Sine","Cosine" and "Tan" buttons shall be made bigger than other regular buttons.|
+| NFR4 | The GUI should not contain any hidden feature that makes user hard to find what he/she is looking for. |
+| NFR5 | Both the interface and functionality shall be matched with regular calculator to make user easy to use the application.|
 
-### Performance
+### Performance and Efficiency
 | ID  | Requirement |
 | :-: | :---------- |
 | NFR6 | The system shall perform a given calculation within about half a second. |
-| NFR7 | Non-Functional Requirement 7 |
-| NFR8 | Non-Functional Requirement 8 |
-| NFR9 | Non-Functional Requirement 9 |
+| NFR7 | The application shall execute without problem in any machine that supports Python 3. |
+| NFR8 | The application shall not occupy more than 5MB of run-time memory .|
+| NFR9 | The application shall required no more than few megabytes of storage capacity in the system.|
 | NFR10 | Non-Functional Requirement 10 |
 
 ### Appearance
 | ID  | Requirement |
 | :-: | :---------- |
 | NFR11 | The functionalities of arithmetic, trigonometry and unit conversion shall be separately grouped in GUI. For example, buttons related to the arithmetic function are grouped in one place and buttons related to unit conversion are grouped in another place. |
-| NFR12 | Non-Functional Requirement 12 |
-| NFR13 | Non-Functional Requirement 13 |
+| NFR12 | The color of foreground shall contrast from color of background.|
+| NFR13 | The font choice shall prioritize legibility and reader-friendly size.|
 | NFR14 | Non-Functional Requirement 14 |
 | NFR15 | Non-Functional Requirement 15 |
 
-### Size
+### Reliability, Availability and Maintainability
 | ID  | Requirement |
 | :-: | :---------- |
-| NFR16 | The application size shall be very small in size, no more than a few megabytes.|
-| NFR17 | Non-Functional Requirement 17 |
+| NFR16 | The system shall never crash even upon providing more than 10 digits for calculation.|
+| NFR17 | The system shall always produce correct result.|
 | NFR18 | Non-Functional Requirement 18 |
 | NFR19 | Non-Functional Requirement 19 |
 | NFR20 | Non-Functional Requirement 20 |
 
-### Name of Feature 5
+### Portability and Compatibility
 | ID  | Requirement |
 | :-: | :---------- |
-| NFR21 | Non-Functional Requirement 21 |
+| NFR21 | The system shall work perfectly without any issue in any version of Operating System.|
 | NFR22 | Non-Functional Requirement 22 |
 | NFR23 | Non-Functional Requirement 23 |
 | NFR24 | Non-Functional Requirement 24 |
