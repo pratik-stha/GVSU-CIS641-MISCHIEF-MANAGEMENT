@@ -99,7 +99,75 @@ This section documents the functional and nonfunctional requirements of the calc
 | NFR25 | Non-Functional Requirement 25 |
 
 # Change management plan
-Description of what this section is
+In the coming months, we will be transitioning from the use of physical calculators to a calculator app installed on all work stations. This section details the organizational plan that the company will follow to roll out that change.
+
+## Introduction
+The company is pursuing this change for a number of reasons:
+
+* _Improved accuracy and efficiency_ - Staff will no longer have to first perform calculations on their physical calculator and then manually key in the calculated figures into the digital documents on their workstation.
+* _Convenience_ - Staff will no longer have to ensure they have their physical calculator or even the calculator app on their phone with them. This enables the staff to have to keep track of and account for one less piece of hardware.
+* _Cost_ - The company will no longer have to supply new employees with calculators and replace broken, worn-out or missing calculators. 
+
+This change will affect all staff, particularly those who use calculators the most: front-line staff and those in the finance department.
+
+In the large scale of company operations, this change is relatively minor but we want everyone to be aware of the shift. Training will be provided to ensure staff are comfortable with the new tool. The app works much like a physical calculator does, a familiarity that will help staff process how to use it and adjust more easily.
+
+## Integration
+### Scheduling
+
+Before training begins, the I.T. department will reach out to department heads to discuss the implementation. By this time, we ask that department heads announce to their staff the planned roll-out of the calculator app and collect feedback on the points listed below.
+
+The I.T. department seeks the following information:
+
+* Dates and times convenient to the department for the install of the calculator software. The software install will be done remotely but the department wishes to be aware of any department operations going on that may need to be planned around to avoid undue interruption.
+* A list of staff and/or workstations that need keyboards with a numerical keypad. The I.T. department will take care of these swaps gradually throughout the transition period. If there are busy times to avoid, please let the I.T. department know.
+* Early questions, comments and concerns from staff that can be integrated into and addressed at training.
+* A post-install date by which time the department is comfortable enough to relinquish their physical calculators, which will be collected by the  I.T. Department. Until that date, during the training and transition period, staff may retain and use their physical calculators.
+
+### Timeline
+| Dates | Action Taken |
+| --: | :-- |
+| Dec. 16, 2020 | Formal announcement about switch to calculator app to staff. |
+| Dec. 17 - Dec. 31, 2020 | Department heads collect info from staff for transition. |
+| Jan. 4-15, 2021 | I.T. discusses and schedules transition with department heads. |
+| Jan. 18 - Feb. 5, 2021 | I.T. deploys calculator app to workstations and swaps out keyboards.
+| Jan. 25 - Feb. 26, 2021 | Staff training. |
+| March 15 - April 2, 2021 | Physical calculators collected. |
+
+## Training
+
+### Audience
+Training in the calculator app is mandatory for all staff who have been issued physical calculators; they may complete training by choosing their preferred learning format.
+
+### What the training will cover
+The objective of the training is that staff can do with the calculator app everything they would normally do with a physical calculator, with the added benefit of being able to copy and paste figures without having to retype them.
+
+* Launching the calculator app
+* Performing basic arithmetic
+* Performing the trigonometric functions of sine, cosine and tangent
+* Converting between units of measurement
+* Clearing the screen (starting over)
+* Copying and pasting from the display
+* Exiting the calculator app
+* Where to find support, documentation and updates on the app
+
+It is anticipated that the app will continue to be updated with additional features over time. Staff will be trained on the current features and directed to where they can stay informed of new features as they are released and how to use them.
+
+### Method of delivery
+The I.T. Department will be providing the calculator app training in several different formats. Staff may choose whichever format they prefer.
+
+* In-person training sessions organized by department
+* Video tutorials
+* Written instructions
+
+All staff who participate in the training must complete a brief quiz reviewing their understanding of how the calculator app works. The quiz may be retaken as many times as necessary to pass.
+
+Once everyone in a department has completed training, the department will be thrown a pizza party to mark the occasion. There will also be a drawing among all quiz completers; the winner earns cupcakes for everyone in their department.
+
+### Issue resolution
+Although the calculator app has been tested, no software is foolproof. If any anomalies or issues arise during the transition phase or after implementation is complete, please open a ticket in the I.T. department’s ticket system logging as many details as possible. 
+
+The I.T. department will prioritize the ticket based on urgency and operational impact. If the department is unable to solve the problem and deem it a substantial enough issue, they will elevate the ticket to the app vendor for resolution.
 
 # Traceability links
 Description of this section
