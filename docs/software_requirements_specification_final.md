@@ -34,7 +34,7 @@ This section documents the functional and nonfunctional requirements of the calc
 | FR7 | The display shall show up to 25 digits at a time maximum.
 | FR8 | Input, errors and output shall display in the same single text screen. |
 | FR9 | The display shall include an abbreviation for the unit of measurement when executing unit conversions. |
-| FR10| When the system returns decimal numbers, the numbers shall be rounded to four decial digits. |
+| FR10| When the system returns decimal numbers, the numbers shall be rounded to four decimal digits. |
 
 ### Calculations
 | ID  | Requirement |
@@ -48,7 +48,7 @@ This section documents the functional and nonfunctional requirements of the calc
 ### Trigonometric and Unit conversion features
 | ID  | Requirement |
 | :-: | :---------- |
-| FR16 | The system shall perform the trigonometric functions of sine, cosine and tangeant. |
+| FR16 | The system shall perform the trigonometric functions of sine, cosine and tangent. |
 | FR17 | The system shall assume a number entered for use in a trigonometric function is in radians. | 
 | FR18 | Trigonometric results shall be converted from radian to degrees and shown in degrees. |
 | FR19 | The system shall convert units of measurement from feet to meters and meters to feet. |
@@ -117,7 +117,7 @@ In the coming months, we will be transitioning from the use of physical calculat
 The company is pursuing this change for a number of reasons:
 
 * **Improved accuracy and efficiency** - Staff will no longer have to first perform calculations on their physical calculator and then manually key in the calculated figures into the digital documents on their workstation.
-* **Convenience** - Staff will no longer have to ensure they have their physical calculator or even the calculator app on their phone with them. This enables the staff to have to keep track of and account for one less piece of hardware.
+* **Convenience** - Staff will no longer have to ensure they have their physical calculator or the calculator app on their phone with them. This enables the staff to have to keep track of and account for one less piece of hardware.
 * **Cost** - The company will no longer have to supply new employees with calculators and replace broken, worn-out or missing calculators. 
 
 This change will affect all staff, particularly those who use calculators the most: front-line staff and those in the finance department.
@@ -134,7 +134,7 @@ The I.T. department seeks the following information:
 * Dates and times convenient to the department for the install of the calculator software. The software install will be done remotely but the department wishes to be aware of any department operations going on that may need to be planned around to avoid undue interruption.
 * A list of staff and/or workstations that need keyboards with a numerical keypad. The I.T. department will take care of these swaps gradually throughout the transition period. If there are busy times to avoid, please let the I.T. department know.
 * Early questions, comments and concerns from staff that can be integrated into and addressed at training.
-* A post-install date by which time the department is comfortable enough to relinquish their physical calculators, which will be collected by the  I.T. Department. Until that date, during the training and transition period, staff may retain and use their physical calculators.
+* A post-install date by which time the department is comfortable enough to relinquish their physical calculators, which will be collected by the I.T. Department. Until that date, during the training and transition period, staff may retain and use their physical calculators.
 
 ### Timeline
 | Dates | Action Taken |
@@ -145,6 +145,8 @@ The I.T. department seeks the following information:
 | Jan. 18 - Feb. 5, 2021 | I.T. deploys calculator app to workstations and swaps out keyboards.
 | Jan. 25 - Feb. 26, 2021 | Staff training. |
 | March 15 - April 2, 2021 | Physical calculators collected. |
+
+Please note that  during training, you will be directed to use your mouse or, if using a touchpad screen, the actual calculator app buttons. At this time the calculator app does not work with keyboard input. We anticipate this feature will be added soon, which is why we are still ensuring everyone has a keypad on their keyboards.
 
 ## Training
 
@@ -177,33 +179,70 @@ All staff who participate in the training must complete a brief quiz reviewing t
 Once everyone in a department has completed training, the department will be thrown a pizza party to mark the occasion. There will also be a drawing among all quiz completers; the winner earns cupcakes for everyone in their department.
 
 ## Issue resolution
-Although the calculator app has been tested, no software is foolproof. If any anomalies or issues arise during the transition phase or after implementation is complete, please open a ticket in the I.T. department’s ticket system logging as many details as possible. 
+Although the calculator app has been tested, no software is foolproof. If any anomalies or issues arise during the transition phase or after implementation is complete, please contact the I.T. department by phone or email. 
 
-The I.T. department will prioritize the ticket based on urgency and operational impact. If the department is unable to solve the problem and deem it a substantial enough issue, they will elevate the ticket to the app vendor for resolution.
+If the issue can be addressed easily and immediately, I.T. staff will do so. If not, you may be asked to open a ticket in the I.T. department’s ticket system logging as many details as possible. This allows the I.T. department to monitor possible troubleshooting trends.  
+
+The I.T. department will prioritize the ticket based on urgency and operational impact. If I.T. staff are unable to solve the problem, they may elevate the ticket to the app vendor for resolution.
 
 # Traceability Links
-Description of this section
+This section serves to connect artifacts and artifact elements with their relevant software requirement specifications.
 
 ## Use Case Diagram Traceability
 | Artifact ID | Artifact Name | Requirement ID |
-| :-------------: | :----------: | :----------: |
-| UseCase1 | Move Player | FR5 |
-| … | … | … |
+| :-------------: | :---------- | :---------- |
+| UseCase1 | Perform arithmetic | FR11-13, FR15, NFR6 |
+| UseCase1 | Perform trigonometry | FR16-18, NFR6-7, NFR9 |
+| UseCase1 | Convert units | FR9, FR19-20, NFR6-7 |
+| UseCase1 | Validate | FR21-25 |
+| UseCase2 | Enter number | FR15 |
+| UseCase2 | Choose math function | FR11, FR16, FR19 |
+| UseCase2 | Computer (equals) | FR6, FR13, NFR9 |
+| UseCase2-3 | Reset | FR3-4, NFR9 |
+| UseCase2-3 | Display | FR6-10, FR23 |
+| UseCase3 | Convert meters to feet | FR9, FR19-20, NFR6-7 |
+| UseCase3 | Convert feet to meters | FR9, FR19-20, NFR6-7 |
 
 ## Class Diagram Traceability
 | Artifact Name | Requirement ID |
-| :-------------: |:----------: |
-| classPlayer | NFR3, FR5 |
-| … | … | … |
+| :-------------: |:---------- |
+| classUnitConversion | FR9, FR19-20, NFR6-7 |
 
 ## Activity Diagram Traceability
-In this case, it makes more sense (I think, feel free to disagree) to link to the file and to those requirements impacted
-
 | Artifact ID | Artifact Name | Requirement ID |
-| :-------------: | :----------: | :----------: |
-| <filename> | Handle Player Input | FR1-5, NFR2 |
-| … | … | … |
+| :-------------: | :---------- | :---------- |
+| [ActivityDiagram1](https://github.com/pratik-stha/GVSU-CIS641-MISCHIEF-MANAGEMENT/blob/master/artifacts/functional-models/Activity%20Diagram%201.pdf) | Get initial input number | FR15 |
+| [ActivityDiagram1](https://github.com/pratik-stha/GVSU-CIS641-MISCHIEF-MANAGEMENT/blob/master/artifacts/functional-models/Activity%20Diagram%201.pdf) | Addition | FR11-12, NFR5-6 |
+| [ActivityDiagram1](https://github.com/pratik-stha/GVSU-CIS641-MISCHIEF-MANAGEMENT/blob/master/artifacts/functional-models/Activity%20Diagram%201.pdf) | Subtraction | FR11-12, NFR5-6 |
+| [ActivityDiagram1](https://github.com/pratik-stha/GVSU-CIS641-MISCHIEF-MANAGEMENT/blob/master/artifacts/functional-models/Activity%20Diagram%201.pdf) | Multiplication | FR11-12, NFR5-6 |
+| [ActivityDiagram1](https://github.com/pratik-stha/GVSU-CIS641-MISCHIEF-MANAGEMENT/blob/master/artifacts/functional-models/Activity%20Diagram%201.pdf) | Division | FR11-12, NFR5-6 |
+| [ActivityDiagram1](https://github.com/pratik-stha/GVSU-CIS641-MISCHIEF-MANAGEMENT/blob/master/artifacts/functional-models/Activity%20Diagram%201.pdf) | Get next number | FR15 |
+| [ActivityDiagram1](https://github.com/pratik-stha/GVSU-CIS641-MISCHIEF-MANAGEMENT/blob/master/artifacts/functional-models/Activity%20Diagram%201.pdf) | Input validation | FR21-25 |
+| [ActivityDiagram1](https://github.com/pratik-stha/GVSU-CIS641-MISCHIEF-MANAGEMENT/blob/master/artifacts/functional-models/Activity%20Diagram%201.pdf) | Error message | FR23 |
+| [ActivityDiagram1](https://github.com/pratik-stha/GVSU-CIS641-MISCHIEF-MANAGEMENT/blob/master/artifacts/functional-models/Activity%20Diagram%201.pdf) | Choose sin(x) | FR16-18, NFR5-7, NFR9 |
+| [ActivityDiagram1](https://github.com/pratik-stha/GVSU-CIS641-MISCHIEF-MANAGEMENT/blob/master/artifacts/functional-models/Activity%20Diagram%201.pdf) | Convert feet to meters | FR9, FR19-20, NFR6-7 |
+| [ActivityDiagram1](https://github.com/pratik-stha/GVSU-CIS641-MISCHIEF-MANAGEMENT/blob/master/artifacts/functional-models/Activity%20Diagram%201.pdf) | Convert meters to feet | FR9, FR19-20, NFR6-7 |
+| [ActivityDiagram1](https://github.com/pratik-stha/GVSU-CIS641-MISCHIEF-MANAGEMENT/blob/master/artifacts/functional-models/Activity%20Diagram%201.pdf) | Close app | FR2 |
+| [ActivityDiagram1](https://github.com/pratik-stha/GVSU-CIS641-MISCHIEF-MANAGEMENT/blob/master/artifacts/functional-models/Activity%20Diagram%201.pdf) | Compute | FR6, FR13, NFR5 |
+| [ActivityDiagram1](https://github.com/pratik-stha/GVSU-CIS641-MISCHIEF-MANAGEMENT/blob/master/artifacts/functional-models/Activity%20Diagram%201.pdf) | Clear Screen | FR3-4, NFR5, NFR9 |
+| [ActivityDiagram1](https://github.com/pratik-stha/GVSU-CIS641-MISCHIEF-MANAGEMENT/blob/master/artifacts/functional-models/Activity%20Diagram%201.pdf) | Display | FR6-10, NFR5 |
 
 # Software Artifacts
-Describe the purpose of this section
-* [I am a link](to_some_file.pdf)
+This section is a list of the diagrams and documentation created during the course of this project.
+
+* [Final presentation (Dec. 16, 2020)]()
+* [Weekly meeting minutes](https://github.com/pratik-stha/GVSU-CIS641-MISCHIEF-MANAGEMENT/tree/master/meetings)
+* [User interface design diagram](https://github.com/pratik-stha/GVSU-CIS641-MISCHIEF-MANAGEMENT/blob/master/artifacts/uid-models/wnd.png)
+* [Data persistence mapping](https://github.com/pratik-stha/GVSU-CIS641-MISCHIEF-MANAGEMENT/blob/master/Mapping%20Diagram/Mapping%20Diagram(1).pdf)
+  * Mapping of a class to a relational database
+  * Mapping of a class to a NoSQL database object
+  * Mapping of a class to a flat file
+* [Midterm presentation (Oct. 28, 2020)](https://github.com/pratik-stha/GVSU-CIS641-MISCHIEF-MANAGEMENT/blob/master/docs/midterm-presentation.pdf)
+* [Class diagram, object diagram and CRC card](https://github.com/pratik-stha/GVSU-CIS641-MISCHIEF-MANAGEMENT/blob/master/artifacts/structural-models/Class%20diagram.pdf)
+* [Activity diagram 1](https://github.com/pratik-stha/GVSU-CIS641-MISCHIEF-MANAGEMENT/blob/master/artifacts/functional-models/Activity%20Diagram%201.pdf)
+* [Activity diagram 2](https://github.com/pratik-stha/GVSU-CIS641-MISCHIEF-MANAGEMENT/blob/master/artifacts/functional-models/Activity%20Diagram%202.pdf)
+* [Use case description](https://github.com/pratik-stha/GVSU-CIS641-MISCHIEF-MANAGEMENT/blob/master/artifacts/functional-models/use-case-description1.md)
+* [Use case diagram 1](https://github.com/pratik-stha/GVSU-CIS641-MISCHIEF-MANAGEMENT/blob/master/artifacts/functional-models/use-case-diagram1-calculator-system.png)
+* [Use case diagram 2](https://github.com/pratik-stha/GVSU-CIS641-MISCHIEF-MANAGEMENT/blob/master/artifacts/functional-models/use-case-diagram2-graphic-interface.png)
+* [Use case diagram 3](https://github.com/pratik-stha/GVSU-CIS641-MISCHIEF-MANAGEMENT/blob/master/artifacts/functional-models/use-case-diagram3-unit-conversion.png)
+* [Initial program proposal](https://github.com/pratik-stha/GVSU-CIS641-MISCHIEF-MANAGEMENT/blob/master/docs/Project%20Proposal.md)
