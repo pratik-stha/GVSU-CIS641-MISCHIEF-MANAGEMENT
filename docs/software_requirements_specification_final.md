@@ -230,7 +230,8 @@ This section serves to connect artifacts and artifact elements with their releva
 # Software Artifacts
 This section is a list of the diagrams and documentation created during the course of this project.
 
-* [Final presentation (Dec. 16, 2020)]()
+* Final presentation (Dec. 16, 2020)
+* [Project README file](https://github.com/pratik-stha/GVSU-CIS641-MISCHIEF-MANAGEMENT/commit/ca3b3605732fb70580c1ad31db6bc08990b88095)
 * [Weekly meeting minutes](https://github.com/pratik-stha/GVSU-CIS641-MISCHIEF-MANAGEMENT/tree/master/meetings)
 * [User interface design diagram](https://github.com/pratik-stha/GVSU-CIS641-MISCHIEF-MANAGEMENT/blob/master/artifacts/uid-models/wnd.png)
 * [Data persistence mapping](https://github.com/pratik-stha/GVSU-CIS641-MISCHIEF-MANAGEMENT/blob/master/Mapping%20Diagram/Mapping%20Diagram(1).pdf)
