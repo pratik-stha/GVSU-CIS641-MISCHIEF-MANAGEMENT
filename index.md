@@ -15,6 +15,7 @@ For the software development model, the project will follow a prototype model, r
 
 ### Project artifacts and documents
 * Final presentation (Dec. 16, 2020)
+* [Project README file](https://github.com/pratik-stha/GVSU-CIS641-MISCHIEF-MANAGEMENT/blob/master/README.md)
 * [Weekly meeting minutes](https://github.com/pratik-stha/GVSU-CIS641-MISCHIEF-MANAGEMENT/tree/master/meetings)
 * [User interface design diagram](https://github.com/pratik-stha/GVSU-CIS641-MISCHIEF-MANAGEMENT/blob/master/artifacts/uid-models/wnd.png)
 * [Software requirements specification](https://github.com/pratik-stha/GVSU-CIS641-MISCHIEF-MANAGEMENT/blob/master/docs/software_requirements_specification.md)
