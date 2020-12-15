@@ -14,12 +14,14 @@ For the software development model, the project will follow a prototype model, r
 ![Prototype model](https://raw.githubusercontent.com/pratik-stha/GVSU-CIS641-MISCHIEF-MANAGEMENT/master/docs/Block%20Diagram.PNG)
 
 ### Project artifacts and documents
+* Final presentation (Dec. 16, 2020)
+* [Weekly meeting minutes](https://github.com/pratik-stha/GVSU-CIS641-MISCHIEF-MANAGEMENT/tree/master/meetings)
+* [User interface design diagram](https://github.com/pratik-stha/GVSU-CIS641-MISCHIEF-MANAGEMENT/blob/master/artifacts/uid-models/wnd.png)_
 * [Software requirements specification](https://github.com/pratik-stha/GVSU-CIS641-MISCHIEF-MANAGEMENT/blob/master/docs/software_requirements_specification.md)
 * [Data persistence mapping](https://github.com/pratik-stha/GVSU-CIS641-MISCHIEF-MANAGEMENT/blob/master/Mapping%20Diagram/Mapping%20Diagram(1).pdf)
   * Mapping of a class to a relational database
   * Mapping of a class to a NoSQL database object
   * Mapping of a class to a flat file
-* [Initial program proposal](https://github.com/pratik-stha/GVSU-CIS641-MISCHIEF-MANAGEMENT/blob/master/docs/Project%20Proposal.md)
 * [Midterm presentation (Oct. 28, 2020)](https://github.com/pratik-stha/GVSU-CIS641-MISCHIEF-MANAGEMENT/blob/master/docs/midterm-presentation.pdf)
 * [Class diagram, object diagram and CRC card](https://github.com/pratik-stha/GVSU-CIS641-MISCHIEF-MANAGEMENT/blob/master/artifacts/structural-models/Class%20diagram.pdf)
 * [Activity diagram 1](https://github.com/pratik-stha/GVSU-CIS641-MISCHIEF-MANAGEMENT/blob/master/artifacts/functional-models/Activity%20Diagram%201.pdf)
@@ -28,4 +30,4 @@ For the software development model, the project will follow a prototype model, r
 * [Use case diagram 1](https://github.com/pratik-stha/GVSU-CIS641-MISCHIEF-MANAGEMENT/blob/master/artifacts/functional-models/use-case-diagram1-calculator-system.png)
 * [Use case diagram 2](https://github.com/pratik-stha/GVSU-CIS641-MISCHIEF-MANAGEMENT/blob/master/artifacts/functional-models/use-case-diagram2-graphic-interface.png)
 * [Use case diagram 3](https://github.com/pratik-stha/GVSU-CIS641-MISCHIEF-MANAGEMENT/blob/master/artifacts/functional-models/use-case-diagram3-unit-conversion.png)
-
+* [Initial program proposal](https://github.com/pratik-stha/GVSU-CIS641-MISCHIEF-MANAGEMENT/blob/master/docs/Project%20Proposal.md)
