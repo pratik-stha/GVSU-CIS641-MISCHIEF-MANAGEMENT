@@ -8,9 +8,11 @@ import Trigonometric
 me=Tk()
 me.geometry("515x460")
 me.title("CALCULATOR APP")
+me.resizable(width=False, height=False)
 melabel = Label(me,text="CALCULATOR",bg='dark gray',font=("Courier New",30,'bold'))
 melabel.pack(side=TOP)
 me.config(background='Dark gray')
+
 
 
 

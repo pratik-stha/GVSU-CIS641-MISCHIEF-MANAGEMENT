@@ -26,10 +26,18 @@ class UnitConversion:
 
     def convert(self,num):
         choice=self.variable.get()
-        if(choice == "Feet to Meter"):
-            self.FeetToMeter(num)
-        else:
-            self.MeterToFeet(num)
+        try:
+            if(float(num)>0):
+                if(choice == "Feet to Meter"):
+                    self.FeetToMeter(num)
+                else:
+                    self.MeterToFeet(num)
+            else:
+                self.textin.set("")
+                self.textin.set(str("Invalid input"))
+        except:
+            self.textin.set("")
+            self.textin.set(str("Invalid input"))
 
 
     def FeetToMeter(self,num):
