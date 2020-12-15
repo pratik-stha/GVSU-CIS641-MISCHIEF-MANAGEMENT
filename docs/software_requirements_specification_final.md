@@ -21,9 +21,9 @@ This section documents the functional and nonfunctional requirements of the calc
 ### User Interface
 | ID  | Requirement |
 | :-: | :---------- |
-| FR1 | The user shall interact with the system via a Graphical User Interface designed to emulate a regular calculator. |
+| FR1 | The user shall interact with the system via a Graphical User Interface designed to emulate a regular calculator, reducing training time. |
 | FR2 | The interface shall provide the user a means for exiting the app regardless of any operation in progress. |
-| FR3 | The buttons shall be grouped together based on functionality. |
+| FR3 | The Clear button shall not just clear the screen but also the history (memory) of the calculation |
 | FR4 | The Clear button shall be colored differently than the other buttons so the user can locate it easily. |
 | FR5 | The User Interface size shall not exceed 515 pixels in width and 460 pixels in height.|
 
@@ -31,7 +31,7 @@ This section documents the functional and nonfunctional requirements of the calc
 | ID  | Requirement |
 | :-: | :---------- |
 | FR6 | The calculator shall display the user’s current input and then update with the calculated answer. |
-| FR7 | The Clear button shall not just clear the screen but also the history (memory) of the calculation. |
+| FR7 | The display shall show up to 25 digits at a time maximum.
 | FR8 | Input, errors and output shall display in the same single text screen. |
 | FR9 | The display shall include an abbreviation for the unit of measurement when executing unit conversions. |
 | FR10| When the system returns decimal numbers, the numbers shall be rounded to four decial digits. |
@@ -40,21 +40,19 @@ This section documents the functional and nonfunctional requirements of the calc
 | ID  | Requirement |
 | :-: | :---------- |
 | FR11 | The system shall perform the arithmetic operations of addition, subtraction, multiplication and division. |
-| FR12 | _Complex calculations shall be done only using "math" library from Python, not other manual ways._|
 | FR12 | When more than one valid arithmetic operator is entered, the system shall evaluate the statement the order of operations. |
 | FR13 | The system shall compute decimal calculations. |
-| FR14 | _The system shall receive input from only the GUI buttons, not the keyboard._ |
-| FR15 | _The system shall require that one operand be entered first before an operation or function key may be pressed._ |
-
+| FR14 | The system shall receive input from only the GUI buttons, not the keyboard. |
+| FR15 | The system shall require that operands be entered first before an operation or function key may be pressed. |
+ 
 ### Trigonometric and Unit conversion features
 | ID  | Requirement |
 | :-: | :---------- |
 | FR16 | The system shall perform the trigonometric functions of sine, cosine and tangeant. |
-| FR17 | Trigonometric results shall be converted and shown in degrees, not in radian. |
-| FRXX | _The calculator shall assume a number entered for use in a trigonometric function is in degrees._ | 
-| FR18 | The system shall convert units of measurement from feet to meters and meters to feet. |
-| FR19 | _The system shall calculate the results for trigonometric calculations only using math library from python, not other ways._ |
-| FR20 | The user shall be able to choose which their preferred unit conversion. |
+| FR17 | The system shall assume a number entered for use in a trigonometric function is in radians. | 
+| FR18 | Trigonometric results shall be converted from radian to degrees and shown in degrees. |
+| FR19 | The system shall convert units of measurement from feet to meters and meters to feet. |
+| FR20 | The user shall be able to choose their preferred unit conversion. |
 
 ### Validations
 | ID  | Requirement |
@@ -63,7 +61,7 @@ This section documents the functional and nonfunctional requirements of the calc
 | FR22 | The system shall check the user’s input for requesting invalid mathematical treatments such as "++" or ".." |
 | FR23 | The user shall be notified with an error message upon entering invalid input. |
 | FR24 | The system shall prevent the app from crashing if the user enters invalid input. |
-| FR25 | _The system shall prevent the app from crashing when it deals with infinity. For example, computing tan 90 shows some value rather than just infinity._ |
+| FR25 | The system shall prevent the app from crashing when it deals with infinity. For example, computing tan(90) gives an error message rather than infinity. |
 
 ## Non-Functional Requirements
 
@@ -71,46 +69,46 @@ This section documents the functional and nonfunctional requirements of the calc
 | ID  | Requirement |
 | :-: | :---------- |
 | NFR1 | The layout shall incorporate white space for readability purposes. |
-| NFR2 | _All the results and error messages shall be shown in same display._ |
-| NFR3 | The size of the equals, clear, convert, sine, cosine and tangeant buttons shall be bigger than the calculator's other buttons. |
+| NFR2 | Users shall be able to use the keyboard shortcuts for copy and paste (Ctrl + C and Ctrl + V for Windows; Cmd + C and Cmd + V for Mac) the contents in the display to another application. |
+| NFR3 | The calculator's font choice shall prioritize legibility and reader-friendly size. |
 | NFR4 | The GUI shall not contain any hidden or hard-to-find features that require hunting or multiple clicks to find. |
-| NFR5 | _Both the interface and functionality shall be matched with regular calculator to make user easy to use the application._ |
-
-### Performance and Efficiency
-| ID  | Requirement |
-| :-: | :---------- |
-| NFR6 | The system shall perform a given calculation within half a second. |
-| NFR7 | The application shall execute in any machine that supports its underlying programming language. |
-| NFR8 | The application shall not require more than 5 megabytes of run-time memory .|
-| NFR9 | The application shall not require more than a few megabytes of storage capacity in the system.|
-| NFR10 | _Users shall be able to use the keyboard shortcuts for copy and paste (Ctrl + C and Ctrl + V for Windows; Cmd + C and Cmd + V for Mac) the contents in the display to another application._ |
+| NFR5 | Both the interface and functionality shall match with a regular calculator to make it easy for the user to use the application. |
 
 ### Appearance
 | ID  | Requirement |
 | :-: | :---------- |
-| NFR11 | _The functionalities of arithmetic, trigonometry and unit conversion shall be separately grouped in GUI. For example, buttons related to the arithmetic function are grouped in one place and buttons related to unit conversion are grouped in another place._ |
-| NFR12 | The calculator shall use high-contrast colors for improved readability. |
-| NFR13 | The calculator's font choice shall prioritize legibility and reader-friendly size. |
-| NFR14 | Non-Functional Requirement 14 |
-| NFR15 | Non-Functional Requirement 15 |
+| NFR6 | The functionalities of arithmetic, trigonometry and unit conversion shall be separately grouped in GUI. For example, buttons related to the arithmetic function are grouped in one place and buttons related to unit conversion are grouped in another place. | 
+| NFR7 | Labels shall distinguish the system's sections for trigonometry and unit conversion. |
+| NFR8 | The calculator shall use high-contrast colors for readability. |
+| NFR9 | The size of the equals, clear, convert, sine, cosine and tangeant buttons shall be bigger than the calculator's other buttons. |
+| NFR10 | The size of all buttons on the calculator shall be large enough to make them easy targets for a mouse cursor. |
+
+### Performance and Efficiency
+| ID  | Requirement |
+| :-: | :---------- |
+| NFR11 | The system shall perform a given calculation within half a second. |
+| NFR12 | At launch, the entire GUI will load simultaneously; no sections will load at varying times. |
+| NFR13 | The application shall require no more than 5 megabytes of run-time memory .|
+| NFR14 | The application shall require no more than a few megabytes of storage capacity in the system.|
+| NFR15 | The system shall operate independently on each machine it is installed on, unaffected by concurrent user load. |
 
 ### Reliability, Availability and Maintainability
 | ID  | Requirement |
 | :-: | :---------- |
-| NFR16 | The system shall never crash even upon providing more than 10 digits for calculation. |
+| NFR16 | The system shall not crash even if provided more than 10 digits for calculation. |
 | NFR17 | The system shall always produce a correct result. |
-| NFR18 | When prompted, the system shall load in under 1 second. |
-| NFR19 | The system shall operate independently on each machine it's installed on, meaning it is not affected by user load. |
-| NFR20 | Non-Functional Requirement 20 |
+| NFR18 | The system shall load in under 1 second. |
+| NFR19 | The system shall have a 99 percent availability rate. |
+| NFR20 | Scheduled maintenance shall require less than an hour of downtime per year the first three years.  |
 
 ### Portability and Compatibility
 | ID  | Requirement |
 | :-: | :---------- |
-| NFR21 | The system shall work in a wide variety of modern-day computer operating systems. |
-| NFR22 | _The system shall not require internet access; it shall operate as a completely offline application._ |
-| NFR23 | Non-Functional Requirement 23 |
-| NFR24 | Non-Functional Requirement 24 |
-| NFR25 | Non-Functional Requirement 25 |
+| NFR21 | The system shall work on modern-day Mac, Windows and Linux computer operating systems. |
+| NFR22 | The system shall not require internet access; it shall operate as a completely offline application. |
+| NFR23 | The system shall be easily removed from a computer by deleting the application files from its home directory. |
+| NFR24 | The application shall execute in any machine that can run its underlying programming language. |
+| NFR25 | Running the application shall not interfere with the running of any other application in the same operating system. |
 
 # Change Management Plan
 In the coming months, we will be transitioning from the use of physical calculators to a calculator app installed on all work stations. This section details the organizational plan that the company will follow to roll out that change.
