@@ -66,8 +66,8 @@ This section documents the functional and nonfunctional requirements of the calc
 ## Non-Functional Requirements
 
 ### Accessibility and Usability
-| ID  | Requirement | Test Case ID | TBD |
-| :-: | :---------- | :-: | TBD |
+| ID  | Requirement | Test Case ID |
+| :-: | :---------- | :-: |
 | NFR1 | The layout shall incorporate white space for readability purposes. | TBD |
 | NFR2 | Users shall be able to use the keyboard shortcuts for copy and paste (Ctrl + C and Ctrl + V for Windows; Cmd + C and Cmd + V for Mac) the contents in the display to another application. | TBD |
 | NFR3 | The calculator's font choice shall prioritize legibility and reader-friendly size. | TBD |
@@ -85,7 +85,7 @@ This section documents the functional and nonfunctional requirements of the calc
 
 ### Performance and Efficiency
 | ID  | Requirement | Test Case ID |
-| :-: | :---------- | :-: | TBD |
+| :-: | :---------- | :-: |
 | NFR11 | The system shall perform a given calculation within half a second. | TBD |
 | NFR12 | At launch, the entire GUI will load simultaneously; no sections will load at varying times. | TBD |
 | NFR13 | The application shall require no more than 5 megabytes of run-time memory. | TBD |
@@ -231,10 +231,7 @@ This section serves to connect artifacts and artifact elements with their releva
 
 <Pratik, you can add explanation about how you did testing here>
 
-| Test Case ID | Inputs | Expected Output | Actual Output | Test Status | Requirement ID |
-| :----------: | :-----: | :-------------: | :-----------: | :---------: | :------------: |
-| <test case id> | {<num><operator><num>} | valid input | valid input | passed | <requirement id> |
-| <test case id> | {<num><operator><num><operator>} | invalid input | invalid input | passed | <requirement id> |
+* [Google Doc of test cases, their IDs and relevant requirements](https://drive.google.com/file/d/1z54HzWOPk4t5-omgNWgOWMaNJVKQcgJ5/view?usp=sharing)
 
 # Software Artifacts
 This section is a list of the diagrams and documentation created during the course of this project.
