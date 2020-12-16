@@ -66,8 +66,8 @@ This section documents the functional and nonfunctional requirements of the calc
 ## Non-Functional Requirements
 
 ### Accessibility and Usability
-| ID  | Requirement | Test Case ID | TBD |
-| :-: | :---------- | :-: | TBD |
+| ID  | Requirement | Test Case ID |
+| :-: | :---------- | :-: |
 | NFR1 | The layout shall incorporate white space for readability purposes. | TBD |
 | NFR2 | Users shall be able to use the keyboard shortcuts for copy and paste (Ctrl + C and Ctrl + V for Windows; Cmd + C and Cmd + V for Mac) the contents in the display to another application. | TBD |
 | NFR3 | The calculator's font choice shall prioritize legibility and reader-friendly size. | TBD |
@@ -85,7 +85,7 @@ This section documents the functional and nonfunctional requirements of the calc
 
 ### Performance and Efficiency
 | ID  | Requirement | Test Case ID |
-| :-: | :---------- | :-: | TBD |
+| :-: | :---------- | :-: |
 | NFR11 | The system shall perform a given calculation within half a second. | TBD |
 | NFR12 | At launch, the entire GUI will load simultaneously; no sections will load at varying times. | TBD |
 | NFR13 | The application shall require no more than 5 megabytes of run-time memory. | TBD |
