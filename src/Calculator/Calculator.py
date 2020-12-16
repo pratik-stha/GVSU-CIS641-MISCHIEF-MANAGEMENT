@@ -11,7 +11,7 @@ me.title("CALCULATOR APP")
 me.resizable(width=False, height=False)
 melabel = Label(me,text="CALCULATOR",bg='dark gray',font=("Courier New",30,'bold'))
 melabel.pack(side=TOP)
-me.config(background='Dark gray')
+me.config(background='Dark Grey')
 
 
 

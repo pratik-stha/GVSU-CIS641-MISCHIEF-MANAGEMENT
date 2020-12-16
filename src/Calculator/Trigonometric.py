@@ -34,6 +34,8 @@ class Trigonometric:
 
     def Tan(self,x):
         try:
+            if(float(x)==90 or float(x)==-90):
+                raise Exception("Invalid input")
             result = math.tan(math.radians(float(x)))
             self.val.set(round(result,4))
         except:
