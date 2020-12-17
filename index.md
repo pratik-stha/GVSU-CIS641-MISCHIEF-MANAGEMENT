@@ -14,12 +14,12 @@ For the software development model, the project will follow a prototype model, r
 ![Prototype model](https://raw.githubusercontent.com/pratik-stha/GVSU-CIS641-MISCHIEF-MANAGEMENT/master/docs/Block%20Diagram.PNG)
 
 ### Project artifacts and documents
-* Final presentation (Dec. 16, 2020)
+* [Final presentation (Dec. 16, 2020)](https://github.com/pratik-stha/GVSU-CIS641-MISCHIEF-MANAGEMENT/blob/master/docs/final-presentation.pdf)
+* [Software requirements specification (final)](https://github.com/pratik-stha/GVSU-CIS641-MISCHIEF-MANAGEMENT/blob/master/docs/software_requirements_specification_final.md)
 * [Project README file](https://github.com/pratik-stha/GVSU-CIS641-MISCHIEF-MANAGEMENT/blob/master/README.md)
 * [Weekly meeting minutes](https://github.com/pratik-stha/GVSU-CIS641-MISCHIEF-MANAGEMENT/tree/master/meetings)
 * [Gantt chart of project timeline](https://docs.google.com/spreadsheets/d/1fueWszEguuGhWwA7LTNIGlknG-qABH2ABIWLH1lTMMg/edit?usp=sharing)
 * [User interface design diagram](https://github.com/pratik-stha/GVSU-CIS641-MISCHIEF-MANAGEMENT/blob/master/artifacts/uid-models/wnd.png)
-* [Software requirements specification](https://github.com/pratik-stha/GVSU-CIS641-MISCHIEF-MANAGEMENT/blob/master/docs/software_requirements_specification.md)
 * [Data persistence mapping](https://github.com/pratik-stha/GVSU-CIS641-MISCHIEF-MANAGEMENT/blob/master/Mapping%20Diagram/Mapping%20Diagram(1).pdf)
   * Mapping of a class to a relational database
   * Mapping of a class to a NoSQL database object
