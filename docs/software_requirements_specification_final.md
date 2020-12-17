@@ -34,7 +34,7 @@ This section documents the functional and nonfunctional requirements of the calc
 | FR7 | The display shall show up to 25 digits at a time maximum. | TBD |
 | FR8 | Input, errors and output shall display in the same single text screen. | TBD |
 | FR9 | The display shall include an abbreviation for the unit of measurement when executing unit conversions. | TBD |
-| FR10| When the system returns decimal numbers, the numbers shall be rounded to four decimal digits. | TBD |
+| FR10| When the system returns decimal numbers, the numbers shall be rounded to four decimal digits. | 5 |
 
 ### Calculations
 | ID  | Requirement | Test Case ID |
@@ -48,20 +48,20 @@ This section documents the functional and nonfunctional requirements of the calc
 ### Trigonometric and Unit conversion features
 | ID  | Requirement | Test Case ID |
 | :-: | :---------- | :-: |
-| FR16 | The system shall perform the trigonometric functions of sine, cosine and tangent. | TBD |
+| FR16 | The system shall perform the trigonometric functions of sine, cosine and tangent. | 6,7,8,9 |
 | FR17 | The system shall assume a number entered for use in a trigonometric function is in radians. | TBD |
 | FR18 | Trigonometric results shall be converted from radian to degrees and shown in degrees. | TBD |
 | FR19 | The system shall convert units of measurement from feet to meters and meters to feet. | TBD |
-| FR20 | The user shall be able to choose their preferred unit conversion. | TBD |
+| FR20 | The user shall be able to choose their preferred unit conversion. | 11,13 |
 
 ### Validations
 | ID  | Requirement | Test Case ID |
 | :-: | :---------- | :-: |
-| FR21 | The system shall check the user’s input for non-number or -arithmetic characters. | TBD |
-| FR22 | The system shall check the user’s input for requesting invalid mathematical treatments such as "++" or ".." | TBD |
+| FR21 | The system shall check the user’s input for non-number or -arithmetic characters. |1,3,14,15 |
+| FR22 | The system shall check the user’s input for requesting invalid mathematical treatments such as "++" or ".." | 2 |
 | FR23 | The user shall be notified with an error message upon entering invalid input. | TBD |
-| FR24 | The system shall prevent the app from crashing if the user enters invalid input. | TBD |
-| FR25 | The system shall prevent the app from crashing when it deals with infinity. For example, computing tan(90) gives an error message rather than infinity. | TBD |
+| FR24 | The system shall prevent the app from crashing if the user enters invalid input. | 4,12,16,17,18,19,20,21,22 |
+| FR25 | The system shall prevent the app from crashing when it deals with infinity. For example, computing tan(90) gives an error message rather than infinity. | 10 |
 
 ## Non-Functional Requirements
 
