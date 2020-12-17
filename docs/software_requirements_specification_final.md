@@ -229,7 +229,7 @@ This section serves to connect artifacts and artifact elements with their releva
 
 ## Test Case Traceability
 
-<Pratik, you can add explanation about how you did testing here>
+Both the unit testing as well as integrated testing was performed in this project. Unit testing was performed in each of the three modules i.e. Arithmetic, Trigonometric and Unit Conversion. Not all, but most of the possible combinations of inputs were taken into account when performing the testing. After the testing was perfomed, the expected output and actual output was compared to determine if the requirment has been met or not. Similarly, after all the modules have been put together integrated testing was performed. For this part, various sequence of operations were conducted and checked if one operation followed by others perform well or not. Here again, not all, but most of the possible combinations were taken into considerations. The google doc mentioned below contains the test cases that was used, along with the corresponding requirement it was tested for.
 
 * [Google Doc of test cases, their IDs and relevant requirements](https://drive.google.com/file/d/1z54HzWOPk4t5-omgNWgOWMaNJVKQcgJ5/view?usp=sharing)
 
