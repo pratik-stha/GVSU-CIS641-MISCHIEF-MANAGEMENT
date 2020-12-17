@@ -48,19 +48,19 @@ This section documents the functional and nonfunctional requirements of the calc
 ### Trigonometric and Unit conversion features
 | ID  | Requirement | Test Case ID |
 | :-: | :---------- | :-: |
-| FR16 | The system shall perform the trigonometric functions of sine, cosine and tangent. | 6,7,8,9 |
+| FR16 | The system shall perform the trigonometric functions of sine, cosine and tangent. | 6-9 |
 | FR17 | The system shall assume a number entered for use in a trigonometric function is in radians. | TBD |
 | FR18 | Trigonometric results shall be converted from radian to degrees and shown in degrees. | TBD |
 | FR19 | The system shall convert units of measurement from feet to meters and meters to feet. | TBD |
-| FR20 | The user shall be able to choose their preferred unit conversion. | 11,13 |
+| FR20 | The user shall be able to choose their preferred unit conversion. | 11, 13 |
 
 ### Validations
 | ID  | Requirement | Test Case ID |
 | :-: | :---------- | :-: |
-| FR21 | The system shall check the user’s input for non-number or -arithmetic characters. |1,3,14,15 |
+| FR21 | The system shall check the user’s input for non-number or -arithmetic characters. |1, 3, 14, 15 |
 | FR22 | The system shall check the user’s input for requesting invalid mathematical treatments such as "++" or ".." | 2 |
 | FR23 | The user shall be notified with an error message upon entering invalid input. | TBD |
-| FR24 | The system shall prevent the app from crashing if the user enters invalid input. | 4,12,16,17,18,19,20,21,22 |
+| FR24 | The system shall prevent the app from crashing if the user enters invalid input. | 4, 12, 16-22 |
 | FR25 | The system shall prevent the app from crashing when it deals with infinity. For example, computing tan(90) gives an error message rather than infinity. | 10 |
 
 ## Non-Functional Requirements
@@ -191,22 +191,22 @@ This section serves to connect artifacts and artifact elements with their releva
 ## Use Case Diagram Traceability
 | Artifact ID | Artifact Name | Requirement ID |
 | :-------------: | :---------- | :---------- |
-| UseCase1 | Perform arithmetic | FR11-13, FR15, NFR6 |
-| UseCase1 | Perform trigonometry | FR16-18, NFR6-7, NFR9 |
-| UseCase1 | Convert units | FR9, FR19-20, NFR6-7 |
-| UseCase1 | Validate | FR21-25 |
-| UseCase2 | Enter number | FR15 |
-| UseCase2 | Choose math function | FR11, FR16, FR19 |
-| UseCase2 | Computer (equals) | FR6, FR13, NFR9 |
-| UseCase2-3 | Reset | FR3-4, NFR9 |
-| UseCase2-3 | Display | FR6-10, FR23 |
-| UseCase3 | Convert meters to feet | FR9, FR19-20, NFR6-7 |
-| UseCase3 | Convert feet to meters | FR9, FR19-20, NFR6-7 |
+| [UseCase1](https://github.com/pratik-stha/GVSU-CIS641-MISCHIEF-MANAGEMENT/blob/master/artifacts/functional-models/use-case-diagram1-calculator-system.png) | Perform arithmetic | FR11-13, FR15, NFR6 |
+| [UseCase1](https://github.com/pratik-stha/GVSU-CIS641-MISCHIEF-MANAGEMENT/blob/master/artifacts/functional-models/use-case-diagram1-calculator-system.png) | Perform trigonometry | FR16-18, NFR6-7, NFR9 |
+| [UseCase1](https://github.com/pratik-stha/GVSU-CIS641-MISCHIEF-MANAGEMENT/blob/master/artifacts/functional-models/use-case-diagram1-calculator-system.png) | Convert units | FR9, FR19-20, NFR6-7 |
+| [UseCase1](https://github.com/pratik-stha/GVSU-CIS641-MISCHIEF-MANAGEMENT/blob/master/artifacts/functional-models/use-case-diagram1-calculator-system.png) | Validate | FR21-25 |
+| [UseCase2](https://github.com/pratik-stha/GVSU-CIS641-MISCHIEF-MANAGEMENT/blob/master/artifacts/functional-models/use-case-diagram2-graphic-interface.png) | Enter number | FR15 |
+| [UseCase2](https://github.com/pratik-stha/GVSU-CIS641-MISCHIEF-MANAGEMENT/blob/master/artifacts/functional-models/use-case-diagram2-graphic-interface.png) | Choose math function | FR11, FR16, FR19 |
+| [UseCase2](https://github.com/pratik-stha/GVSU-CIS641-MISCHIEF-MANAGEMENT/blob/master/artifacts/functional-models/use-case-diagram2-graphic-interface.png) | Computer (equals) | FR6, FR13, NFR9 |
+| [UseCase2](https://github.com/pratik-stha/GVSU-CIS641-MISCHIEF-MANAGEMENT/blob/master/artifacts/functional-models/use-case-diagram2-graphic-interface.png), [UseCase3](https://github.com/pratik-stha/GVSU-CIS641-MISCHIEF-MANAGEMENT/blob/master/artifacts/functional-models/use-case-diagram3-unit-conversion.png) | Reset | FR3-4, NFR9 |
+| [UseCase2](https://github.com/pratik-stha/GVSU-CIS641-MISCHIEF-MANAGEMENT/blob/master/artifacts/functional-models/use-case-diagram2-graphic-interface.png), [UseCase3](https://github.com/pratik-stha/GVSU-CIS641-MISCHIEF-MANAGEMENT/blob/master/artifacts/functional-models/use-case-diagram3-unit-conversion.png) | Display | FR6-10, FR23 |
+| [UseCase3](https://github.com/pratik-stha/GVSU-CIS641-MISCHIEF-MANAGEMENT/blob/master/artifacts/functional-models/use-case-diagram3-unit-conversion.png) | Convert meters to feet | FR9, FR19-20, NFR6-7 |
+| [UseCase3](https://github.com/pratik-stha/GVSU-CIS641-MISCHIEF-MANAGEMENT/blob/master/artifacts/functional-models/use-case-diagram3-unit-conversion.png) | Convert feet to meters | FR9, FR19-20, NFR6-7 |
 
 ## Class Diagram Traceability
 | Artifact Name | Requirement ID |
 | :-------------: |:---------- |
-| classUnitConversion | FR9, FR19-20, NFR6-7 |
+| [classUnitConversion](https://github.com/pratik-stha/GVSU-CIS641-MISCHIEF-MANAGEMENT/blob/master/artifacts/structural-models/Class%20diagram.pdf) | FR9, FR19-20, NFR6-7 |
 
 ## Activity Diagram Traceability
 | Artifact ID | Artifact Name | Requirement ID |
@@ -229,14 +229,18 @@ This section serves to connect artifacts and artifact elements with their releva
 
 ## Test Case Traceability
 
-Both the unit testing as well as integrated testing was performed in this project. Unit testing was performed in each of the three modules i.e. Arithmetic, Trigonometric and Unit Conversion. Not all, but most of the possible combinations of inputs were taken into account when performing the testing. After the testing was perfomed, the expected output and actual output was compared to determine if the requirment has been met or not. Similarly, after all the modules have been put together integrated testing was performed. For this part, various sequence of operations were conducted and checked if one operation followed by others perform well or not. Here again, not all, but most of the possible combinations were taken into considerations. The google doc mentioned below contains the test cases that was used, along with the corresponding requirement it was tested for.
+Both unit testing as well as integrated testing were performed in this project. Unit testing was performed in each of the three modules -- i.e. arithmetic, trigonomety and unit conversion. Most of the possible combinations of inputs were taken into account when performing the testing. 
+
+After testing was perfomed, the expected output and actual output were compared to determine if the requirment had been met or not. Similarly, after all the modules had been put together, integrated testing was performed. For this part, various sequences of operations were conducted and checked, such as if one operation followed by others performed well or not. 
+
+Here again, most of the possible combinations were taken into considerations. The Google Doc mentioned below lists the test cases that were used, along with their corresponding requirements.
 
 * [Google Doc of test cases, their IDs and relevant requirements](https://drive.google.com/file/d/1z54HzWOPk4t5-omgNWgOWMaNJVKQcgJ5/view?usp=sharing)
 
 # Software Artifacts
 This section is a list of the diagrams and documentation created during the course of this project.
 
-* Final presentation (Dec. 16, 2020)
+* [Final presentation (Dec. 16, 2020)](https://github.com/pratik-stha/GVSU-CIS641-MISCHIEF-MANAGEMENT/blob/master/docs/final-presentation.pdf)
 * [Project README file](https://github.com/pratik-stha/GVSU-CIS641-MISCHIEF-MANAGEMENT/blob/master/README.md)
 * [Weekly meeting minutes](https://github.com/pratik-stha/GVSU-CIS641-MISCHIEF-MANAGEMENT/tree/master/meetings)
 * [Gantt chart of project timeline](https://docs.google.com/spreadsheets/d/1fueWszEguuGhWwA7LTNIGlknG-qABH2ABIWLH1lTMMg/edit?usp=sharing)
